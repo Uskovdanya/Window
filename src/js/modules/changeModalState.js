@@ -5,6 +5,7 @@ const changeModalState = (state) => {
     windowWidth = document.querySelectorAll('#width'),
     windowHeight = document.querySelectorAll('#height'),
     windowType = document.querySelectorAll('#view_type'),
+    btn = document.querySelector('.popup_calc_button'),
     windowProfile = document.querySelectorAll('.checkbox');
 
   checkNumInputs('#width');
